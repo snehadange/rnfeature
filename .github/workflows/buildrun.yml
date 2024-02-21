@@ -22,7 +22,7 @@ jobs:
 
       - name: Build Android APK
         run: |
-          npm run build-android
+          npx react-native run-android
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v2
