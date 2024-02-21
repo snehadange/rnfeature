@@ -21,7 +21,4 @@ jobs:
         run: npm install
 
       - name: Build Android app
-        run: npx react-native run-android
-
-      - name: Build iOS app
-        run: npx react-native run-ios
+        run: ./gradlew assembleDebug
